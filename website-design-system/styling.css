@@ -1,0 +1,112 @@
+.container {
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.color-container {
+  display: flex;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.color-label {
+  text-decoration: underline;
+}
+
+.slategray {
+  background-color: #708090;
+  color: white;
+}
+
+.darkslategray {
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.wheat {
+  background-color: #F5DEBF;
+  color: black;
+}
+
+.steelblue {
+  background-color: #4682B4;
+  color: black;
+}
+
+.font-panel {
+  width: 300px;
+
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'abril-fatface-regular';
+  margin-right: 30px;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'merriweather';
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'anonymous-pro';
+  margin-left: 30px;
+}
+
+.font-container {
+  display: flex;
+
+}
+
+.text-container {
+  display: flex;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.anonymous-pro {
+  font-family: 'anonymous-pro', serif;
+  margin-right: 20px;
+}
+
+.work-sans {
+  font-family: 'work-sans', sans-serif;
+  margin-right: 20px;
+}
+
+.merriweather {
+  font-family: 'merriweather', serif;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
